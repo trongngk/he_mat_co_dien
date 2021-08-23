@@ -1,4 +1,6 @@
+# mã hóa vòng
 import string
+
 # mã hóa
 plantext = input("Input plantext: ")
 key = int(input("Input key: "))
@@ -34,6 +36,8 @@ print("\nCipher", end = " | ")
 for c in cipher:
     print("{:<3}".format(c), end = "|")
 print("\n____\n____")
+
+
 # giải mã
 decode = ""
 print("Symbol", end = " | ")
